@@ -664,7 +664,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-wrapper {
@@ -707,6 +707,10 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-check-field {
+  margin-bottom: 24px;
+}
+
 .modal-submit {
   display: block;
   margin: 0 auto;
@@ -730,11 +734,7 @@ img {
   background-color: #404bbf;
 }
 
-.modal-field {
-  margin-bottom: 16px;
-}
-
-.privacy {
+.span-privacy {
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -752,6 +752,7 @@ img {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  display: inline-flex;
 }
 
 .modal-check-text span {

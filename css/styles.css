@@ -570,6 +570,7 @@ img {
   min-height: 584px;
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
+  margin-bottom: 8px;
   transform: translate(-50%, -50%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -730,7 +731,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .privacy {
@@ -763,6 +764,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span {
